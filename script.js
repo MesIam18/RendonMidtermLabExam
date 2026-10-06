@@ -1,3 +1,13 @@
+'use strict';
+var STUDENT_NUMBER_PATTERN;
+var EMAIL_PATTERN;
+
+var WORKSHOP_FEES = {
+  'Web Development': 500,
+  'UI/UX Design': 400,
+  'Cybersecurity': 600
+};
+
 const registrationForm = document.getElementById('registrationForm');
 const studentName = document.getElementById('studentName');
 const studentNumber = document.getElementById('studentNumber');
@@ -20,13 +30,3 @@ const registrationResult = document.getElementById('registrationResult');
 function isValidStudentName(name) {
   return typeof name === 'string' && name.trim().length >= 2;
 }
-
-'use strict';
-var STUDENT_NUMBER_PATTERN;
-var EMAIL_PATTERN;
-
-var WORKSHOP_FEES = {
-  'Web Development': 500,
-  'UI/UX Design': 400,
-  'Cybersecurity': 600
-};
