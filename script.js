@@ -1,5 +1,8 @@
 'use strict';
 
+const validateStudentInfo("studentName");
+const 
+
 var STUDENT_NUMBER_PATTERN;
 var EMAIL_PATTERN;
 
